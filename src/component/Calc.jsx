@@ -5,7 +5,7 @@ export default function Calc() {
   const [inputVal, setInputVal] = useState(0);
 
   function clickHandler() {
-    setMultTwo(inputVal * 2);
+    setMultTwo(inputVal * 4);
   }
 
   return (
