@@ -6,7 +6,7 @@ export default function Calc() {
 
   //   checking
   function clickHandler() {
-    setMultTwo(inputVal * 2);
+    setMultTwo(2 * inputVal);
   }
 
   return (
