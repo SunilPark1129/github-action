@@ -28,8 +28,8 @@ describe("Testing the multiply numbers...", () => {
       },
     });
     fireEvent.click(btnEl);
-    expect(outputText).toHaveTextContent("2");
-    expect(outputMultipledText).toHaveTextContent("4");
+    expect(outputText.textContent).toBe("2");
+    expect(outputMultipledText.textContent).toBe("4");
 
     fireEvent.change(inputEl, {
       target: {
@@ -37,8 +37,8 @@ describe("Testing the multiply numbers...", () => {
       },
     });
     fireEvent.click(btnEl);
-    expect(outputText).toHaveTextContent("4");
-    expect(outputMultipledText).toHaveTextContent("8");
+    expect(outputText.textContent).toBe("4");
+    expect(outputMultipledText.textContent).toBe("8");
   });
 
   test("if output gets wrong value", () => {
@@ -54,7 +54,7 @@ describe("Testing the multiply numbers...", () => {
       },
     });
     fireEvent.click(btnEl);
-    expect(outputText).toHaveTextContent("3");
-    expect(outputMultipledText).not.toHaveTextContent("9");
+    expect(outputText.textContent).toBe("3");
+    expect(outputMultipledText.textContent).not.toBe("9");
   });
 });

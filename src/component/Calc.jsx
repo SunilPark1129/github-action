@@ -6,7 +6,7 @@ export default function Calc() {
 
   //   checking
   function clickHandler() {
-    setMultTwo(inputVal * 21);
+    setMultTwo(inputVal * 2);
   }
 
   return (
@@ -26,8 +26,8 @@ export default function Calc() {
         </button>
       </div>
       <div>
-        <p data-testid="calc-output-val">Input: {inputVal}</p>
-        <p data-testid="calc-output-mult-val">Calculated: {multTwo}</p>
+        <p data-testid="calc-output-val">{inputVal}</p>
+        <p data-testid="calc-output-mult-val">{multTwo}</p>
       </div>
     </div>
   );
