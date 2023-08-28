@@ -1,4 +1,4 @@
-[![main CI](https://github.com/SunilPark1129/github-action/actions/workflows/ci.yml/badge.svg)](https://github.com/SunilPark1129/github-action/actions/workflows/ci.yml)
+[![main CI](https://github.com/SunilPark1129/github-action/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SunilPark1129/github-action/actions/workflows/ci.yml)
 
 # Github Action
 
